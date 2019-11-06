@@ -1,0 +1,11 @@
+# node_modules
+node_modules
+client/node_modules
+
+# env.
+.env
+
+## misc.
+client/dist
+tests/1_unit-tests.js
+.env

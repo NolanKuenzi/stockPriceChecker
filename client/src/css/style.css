@@ -1,0 +1,122 @@
+body {
+    background-color: #339966;
+}
+
+/* <Header /> component */
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+/* <Stocks /> Component */
+
+#singlePriceDiv {
+    border: 2px solid black;
+    margin-top: 3em;
+    width: 30em;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .h3 {
+     text-align: center;
+     text-decoration: underline;
+ }
+
+#compareDiv {
+    border: 2px solid black;
+    margin-top: 1em;
+    width: 30em;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    outline: none;
+    border: 0.1em solid black;
+    font-size: 1.1em;
+    width: 6em;
+}
+
+.lowerInputs {
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+}
+
+.qMark {
+   position: relative;
+   right: 5em;
+}
+
+button {
+    margin-top: 0.2em;
+    font-size: 0.9em;
+    cursor: pointer;
+    border: 0.1em solid black;
+    outline: none;
+    width: 6em;
+}
+
+#secondBtn {
+    position: relative;
+    left: 0.15em;
+}
+
+button:active {
+    background-color: #339966;
+    outline: none;
+    transform: translateY(0.3em);
+    color: white;
+}
+
+#stockInfo {
+    margin-top: 3em;
+    background-color: white;
+    font-size: 1.2em;
+    width: 30em;
+    border: 0.1em solid black;
+    text-align: center;
+    padding: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#usDiv {
+    margin-top: 10em;
+    font-size: 1.1em; 
+    cursor: pointer;
+    border: 0.1em solid black;
+    width: 12em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0.2em;
+}
+
+#usDivSpan {
+    font-size: 0.7em
+}
+
+/* <UserStories /> component */
+
+#userStoriesDiv {
+    width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+ list-style-type: none;
+}
+
+/* <Footer /> component */
+
+#footerDiv {
+    margin-top: 2em;
+    width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+}
