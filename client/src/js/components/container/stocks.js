@@ -52,7 +52,7 @@ const Stocks = () => {
       return;
     }
     try {
-      let url = `http://localhost:3000/api/stock-prices?stock=${singlePrice}`;
+      let url = `https://murmuring-ocean-06722.herokuapp.com/api/stock-prices?stock=${singlePrice}`;
       if (like === true) {
         url = url.concat('&like=true');
       }
@@ -69,7 +69,7 @@ const Stocks = () => {
       alert('Please fill out required fields');
       return;
     }
-    let url = `http://localhost:3000/api/stock-prices?stock=${compPrice1}&stock=${compPrice2}`;
+    let url = `https://murmuring-ocean-06722.herokuapp.com/api/stock-prices?stock=${compPrice1}&stock=${compPrice2}`;
     if (likeBoth === true) {
       url = url.concat('&like=true');
     }
