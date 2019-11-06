@@ -41,14 +41,22 @@ input {
     width: 6em;
 }
 
-.lowerInputs {
-    margin-left: 0.1em;
-    margin-right: 0.1em;
+#input2 {
+    margin-left: 0.2em;
 }
 
-.qMark {
-   position: relative;
-   right: 5em;
+.cBox {
+    width: 1em;
+    height: 1em;
+}
+
+#cBoxLabel {
+    font-size: 0.9em;
+}
+
+#cBoxLabel1 {
+    position: relative;
+    bottom: 0.1em;
 }
 
 button {
@@ -58,11 +66,6 @@ button {
     border: 0.1em solid black;
     outline: none;
     width: 6em;
-}
-
-#secondBtn {
-    position: relative;
-    left: 0.15em;
 }
 
 button:active {

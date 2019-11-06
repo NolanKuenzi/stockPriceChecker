@@ -94,8 +94,10 @@ const Stocks = () => {
             value={singlePrice}
             onChange={e => setSinglePrice(e.target.value)}
           />
-          <input type="checkbox" onInput={e => toggleLike(e)} />
-          <span className="qMark">Like?</span>
+          <label htmlFor="cBox0">
+            <input className="cBox" id="cBox0" type="checkbox" onInput={e => toggleLike(e)} />
+            <span className="cBoxLabel">Like?</span>
+          </label>
           <br />
           <button id="button0" type="submit">
             Get Price!
@@ -108,7 +110,6 @@ const Stocks = () => {
           <input
             id="input1"
             type="text"
-            className="lowerInputs"
             placeholder="GOOG"
             value={compPrice1}
             onChange={e => setCompPrice1(e.target.value)}
@@ -116,13 +117,17 @@ const Stocks = () => {
           <input
             id="input2"
             type="text"
-            className="lowerInputs"
             placeholder="MSFT"
             value={compPrice2}
             onChange={e => setCompPrice2(e.target.value)}
           />
-          <input type="checkbox" onInput={e => toggleLikeBoth(e)} />
-          <span className="qMark">Like both?</span>
+          <label htmlFor="cBox1">
+            <input className="cBox" id="cBox1" type="checkbox" onInput={e => toggleLikeBoth(e)} />
+            <span className="cBoxLabel" id="cBoxLabel1">
+              Like both?
+            </span>
+          </label>
+          <br />
           <button type="submit" id="secondBtn">
             Get Price!
           </button>
