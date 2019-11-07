@@ -66,6 +66,7 @@ button {
     border: 0.1em solid black;
     outline: none;
     width: 6em;
+    background-color: white;
 }
 
 button:active {
